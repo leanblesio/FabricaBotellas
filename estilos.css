@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&family=Roboto:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif; 
+ /* font-family: 'Roboto', sans-serif; */
+}
+.header__item, .header__enlace{
+    font-weight: 500px;
+    font-size: 16px;
+    color: rgb(255, 255, 255)
+} 
+
+
+/* **************************** HEADER **************************** */
+
+#header  { 
+     background-color: rgb(37, 74, 194) ; 
+    background-image: url(img/fondo\ backg.png);
+  
+}
+.header__item{
+    padding: 7px 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+.header__enlace{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.header__enlace:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.header__logo{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 25px;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+}
+.header__subitem{
+    display: block;
+}
+.header__submenu{
+    display: none;
+    position: absolute;
+}
+.header__item:hover .header__submenu{
+    display: block;
+    background-color: rgba(98, 107, 139, 0.712);
+    border-radius: 7px;  
+}
+
+
+
+/* **************************** FIN HEADER **************************** */
+
+
+/* **************************** CONTENEDOR INDEX**************************** */
+
+.contenedor{
+    padding-top: 0px;
+    min-width: 100%;
+    min-height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.conteiner__div{
+    /* width: 100%; */
+    height: 200px;
+}
+.contenedor__imagen{
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/bot_back.jpeg);
+    background-size: contain;    
+}
+.contenedor__subtitulo{
+    color:rgb(37, 74, 194);
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+}
+.contenedor__pet{
+    background-image: url(img/pet.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenedor__pead{
+    background-image: url(img/pead.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenedor__pvc{
+    background-image: url(img/pvc.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenedor__pp{
+    background-image: url(img/pp.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenedor__texto{
+    width: 75%;
+    font-size: 25px;
+    font-weight: bold; 
+    color: #ffff;
+    text-align: center;
+    background-color: rgba(34, 34, 34, 0.322);
+    border-radius: 5px;
+}
+
+
+
+/* **************************** FIN CONTENEDOR INDEX**************************** */
+
+/* **************************** FOOTER*************************** */
+
+.footer{
+    padding: 0px 5px;
+    display: flex;
+    min-height: 12vh;
+    justify-content: space-evenly;  
+    align-items: center;
+    background-color: rgba(140, 140, 140, 0.357);
+}
+.footer__logo img{
+   display: inline-block;
+    width: 25px;
+    height: 25px;
+ 
+}
+.footer__logo{
+    order: 2;
+}
+.footer__texto{
+    /* display: block; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(37, 74, 194);
+}
+
+.jumbotron{
+    width: 100%;
+    height: 200px;
+}
+
+
+/* **************************** FIN FOOTER*************************** */
+
+/* **************************** CONTENEDOR*************************** */
+            /* SECTION UTILIZADAS EN INDEX Y PRODUCTOS */
+
+.conten__div{
+ 
+    height: 200px;
+}
+.conten__historia{
+   
+    height: auto;
+    padding: 12px 5px;
+    font-size: 12px;
+}
+.conten__historia span{
+    padding: 5px 5px;
+font-weight: bold;
+}
+
+.conten__proposito{
+    width: 95%;
+    height: auto;
+    padding: 12px 5px;
+    font-size: 12px;
+}
+
+.conten__proposito span{
+    padding: 5px 5px;
+font-weight: bold;
+}
+.content__imgnav{
+    margin: 10px 10px;
+    height: 100px;
+    background-image: url(img/imgnav.jpg);
+    background-position: center;
+    background-size:contain;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+/* **************************** FIN CONENEDOR*************************** */
+
+/* **************************** PRODUCTOS*************************** */
+main p{
+    font-size: 16px;
+    padding: 25px;
+}
+main p span{
+    font-size: 20px;
+    padding: 20px;}
+.productos__div{  
+    text-align: center;
+    border: 5px solid #fff;
+   
+}
+main img{
+    padding: 25px;
+}
+.productos__div img{
+    width: 260px;   
+    height: 300px;
+}
+.productos__descrip{
+    padding: 7px 0px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+   
+}
+.pd{
+    font-weight: bold;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
