@@ -7,10 +7,6 @@
 body{
     background-color: #fff;
     font-family: 'Montserrat', sans-serif; 
-    /* background: rgb(3,141,208);
-background: radial-gradient(circle, rgba(3,141,208,1) 0%, rgba(0,212,255,1) 53%, rgba(4,128,199,0.5074404761904762) 94%, rgba(9,9,121,1) 100%); */
-    
- /* font-family: 'Roboto', sans-serif; */
 }
 .header__item, .header__enlace{
     font-weight: 500px;
