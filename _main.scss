@@ -1,0 +1,145 @@
+main{
+    img{
+        padding: 25px;
+    }
+    p{font-size: 16px;
+        padding: 25px;
+        
+        span{
+            font-size: 20px;
+             padding: 20px;
+            }
+    }
+}
+
+/* ***** PRODUCTOS ***** */
+// tarea pendiente------ juntar conteiner__div con contenedor de productos (contenedor__pet, etc) ¿¿EXTEND??
+
+
+.conteiner__div{//tambien esta en index.. ver p/ heredar.
+    height: 200px;
+}
+.contenedor__imagen{
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/bot_back.jpeg);
+    background-size: contain;    
+}
+.contenedor__subtitulo{
+    color: $color-primaty;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+}
+.contenedor__pet{
+    background-image: url(img/pet.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenedor__pead{
+    background-image: url(img/pead.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenedor__pvc{
+    background-image: url(img/pvc.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenedor__pp{
+    background-image: url(img/pp.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenedor__texto{
+    width: 75%;
+    font-size: 25px;
+    font-weight: bold; 
+    color: #ffff;
+    text-align: center;
+    background-color: rgba(34, 34, 34, 0.322);
+    border-radius: 5px;
+}
+
+/* ***** NOSOTROS ***** */
+
+            .conten__div{
+ 
+                height: 200px;
+            }
+            .conten__historia{
+               
+                height: auto;
+                padding: 12px 5px;
+                font-size: 12px;
+                span{
+                    padding: 5px 5px;
+                    font-weight: bold;
+                }
+            }
+            
+            
+            .conten__proposito{
+                width: 95%;
+                height: auto;
+                padding: 12px 5px;
+                font-size: 12px;
+                span{
+                    padding: 5px 5px;
+                    font-weight: bold;
+                }
+            }
+            .content__imgnav{
+                margin: 10px 10px;
+                height: 100px;
+                background-image: url(img/imgnav.jpg);
+                background-position: center;
+                background-size:contain;
+                justify-content: center;
+                background-repeat: no-repeat;
+            }
+            
+            
+/* **************************** PRODUCTOS*************************** */
+        
+
+            .productos__div{  
+                text-align: center;
+                border: 5px solid #fff;
+                img{
+                    width: 260px;   
+                    height: 300px;
+                }
+               
+            }
+            .productos__descrip{
+                padding: 7px 0px;
+                text-align: center;
+                font-size: 12px;
+                font-weight: bolder;
+               
+            }
+            .productos__texto{
+                font-weight: bold;
+                padding: 10px 0px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+/* **************************** CONTACTO *************************** */
+            .textoep{
+                font-size: 13;
+                padding: 15px;
+            }
+            .mapa
+            {
+                padding: 30px 30px;
+            }
+            
+            

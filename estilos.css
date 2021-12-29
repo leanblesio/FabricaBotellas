@@ -1,22 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&family=Roboto:wght@300;500&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  font-family: "Montserrat", sans-serif;
-}
-
-.header__item, .header__enlace {
-  font-weight: 500px;
-  font-size: 16px;
-  color: white;
-}
-
-/* **************************** HEADER **************************** */
 #header {
   padding: 7px;
   background-color: #254ac2;
@@ -30,12 +12,24 @@ body {
   color: white;
 }
 
-/* **************************** FIN HEADER **************************** */
 .jumbotron {
   width: 100%;
   height: 200px;
 }
 
+main img {
+  padding: 25px;
+}
+main p {
+  font-size: 16px;
+  padding: 25px;
+}
+main p span {
+  font-size: 20px;
+  padding: 20px;
+}
+
+/* ***** PRODUCTOS ***** */
 .conteiner__div {
   height: 200px;
 }
@@ -94,8 +88,76 @@ body {
   border-radius: 5px;
 }
 
-/* **************************** FIN CONTENEDOR INDEX**************************** */
-/* **************************** FOOTER*************************** */
+/* ***** NOSOTROS ***** */
+.conten__div {
+  height: 200px;
+}
+
+.conten__historia {
+  height: auto;
+  padding: 12px 5px;
+  font-size: 12px;
+}
+.conten__historia span {
+  padding: 5px 5px;
+  font-weight: bold;
+}
+
+.conten__proposito {
+  width: 95%;
+  height: auto;
+  padding: 12px 5px;
+  font-size: 12px;
+}
+.conten__proposito span {
+  padding: 5px 5px;
+  font-weight: bold;
+}
+
+.content__imgnav {
+  margin: 10px 10px;
+  height: 100px;
+  background-image: url(img/imgnav.jpg);
+  background-position: center;
+  background-size: contain;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+/* **************************** PRODUCTOS*************************** */
+.productos__div {
+  text-align: center;
+  border: 5px solid #fff;
+}
+.productos__div img {
+  width: 260px;
+  height: 300px;
+}
+
+.productos__descrip {
+  padding: 7px 0px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.productos__texto {
+  font-weight: bold;
+  padding: 10px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* **************************** CONTACTO *************************** */
+.textoep {
+  font-size: 13;
+  padding: 15px;
+}
+
+.mapa {
+  padding: 30px 30px;
+}
+
 .footer {
   padding: 0px 5px;
   display: flex;
@@ -121,7 +183,17 @@ body {
   color: #254ac2;
 }
 
-/* **************************** FIN FOOTER*************************** */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
 /* **************************** CONTENEDOR*************************** */
 /* SECTION UTILIZADAS EN INDEX Y PRODUCTOS */
 .conten__div {
@@ -161,27 +233,11 @@ body {
   background-repeat: no-repeat;
 }
 
-/* **************************** FIN CONENEDOR*************************** */
 /* **************************** PRODUCTOS*************************** */
-main p {
-  font-size: 16px;
-  padding: 25px;
-}
-
-main p span {
-  font-size: 20px;
-  padding: 20px;
-}
-
 .productos__div {
   text-align: center;
   border: 5px solid #fff;
 }
-
-main img {
-  padding: 25px;
-}
-
 .productos__div img {
   width: 260px;
   height: 300px;

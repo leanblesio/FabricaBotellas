@@ -13,50 +13,50 @@
 </head>
 <body>
 
-     <!-- header - inicio -->
+       <!-- header - inicio -->
+    <nav class="navbar navbar-expand-md navbar-dark" id="header">
+        <!-- logo europlast -->
+      <a class="navbar-brand header__logo" href="#">Europlast</a>
 
-     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark" id="header">
+     <!-- boton hamburguesa -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <!-- Brand -->
-            <a class="navbar-brand header__logo" href="#">Europlast</a>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar"> 
+          <!-- items lista menu -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <!-- item lista submenu- -->
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  Productos
+              </a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="productos.html#PET">PET</a>
+                  <a class="dropdown-item" href="productos.html#PEAD">PEAD</a>
+                  <a class="dropdown-item" href="productos.html#PVC">PVC</a>
+                  <a class="dropdown-item" href="productos.html#PP">PP</a>
+              </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>   
+        </ul>
+        <!-- boton redirecciona a contactos -->
+        <button type="submit" class="btn btn-success d-none d-md-block btn-sm"><a href="pages/contacto.html"></a>Contactanos</button>          
+      </div>  
+    </nav>
 
-            <!-- Links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                </li>
-
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Productos
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="productos.html#PET">PET</a>
-                        <a class="dropdown-item" href="productos.html#PEAD">PEAD</a>
-                        <a class="dropdown-item" href="productos.html#PVC">PVC</a>
-                        <a class="dropdown-item" href="productos.html#PP">PP</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-
-            </ul>
-            <button type="submit" class="btn btn-success float d-none d-md-block""><a href="pages/contacto.html"></a>Contactanos!!</button>
-
-
-        </nav>
-    </header>
-
-      <!-- header - fin -->
+    <!-- header - fin -->
     
     <main>
              <!-- jumbotron - inicio -->
@@ -76,53 +76,55 @@
 
         <section class="productos row">
 
-                    <!-- botellas pead - inicio -->
+              <!-- botellas pet - inicio -->
 
-            <div class="conteiner__div contenedor__pead col-x2-12 col-sm-12 col-lg-12" id="PEAD"></div>
-
-            <div class="productos__div productos__bp1000 col-xs-12 col-sm-6 col-lg-6">
-                <p class="pd">Botella pead 1lt <br></p>
-                <img src="../img/bp1000.jpg" alt="imgbp1000" class="rounded">
-                <p class="productos__descrip">Rosca diametro 28 <br>Cantidad por bulto 105 <br></p>
-             </div>
-
-              <div class="productos__div productos__bp2000 col-xs-12 col-sm-6 col-lg-4">
-                <p class="pd">Botella pead 2lt <br></p>
-                <img src="../img/bp2000.jpg" alt="imgbp2000" class="rounded">
-                <p class="productos__descrip">Rosca diametro 28 <br>Cantidad por bulto 105 <br></p>
-             </div>
-                   <!-- botellas pead - fin -->
-
-                    <!-- botellas pet - inicio -->
-
-             <div class="conteiner__div contenedor__pet col-xs-12 col-sm-12 col-lg-12" id="PET"></div>
+              <div class="conteiner__div contenedor__pet col-xs-12 col-sm-12 col-lg-12" id="PET"></div>
 
               <div class="productos__div productos__c250 col-xs-12 col-sm-6 col-lg-4">
-                <p class="pd">Botella pet 250cc <br></p>
+                <p class="productos__texto">Botella pet 250cc <br></p>
                 <img src="../img/c250.jpg" alt="imgc250" class="rounded">
                 <p class="productos__descrip">Rosca oil diametro 29 <br>Cantidad por bulto 110 <br></p>
                </div>
 
               <div class="productos__div productos__c500 col-xs-12 col-sm-6 col-lg-4">
-                  <p class="pd">Botella pet 500cc <br></p>
+                  <p class="productos__texto">Botella pet 500cc <br></p>
                 <img src="../img/c500.jpg" alt="imgc500" class="rounded">
                 <p class="productos__descrip">Rosca oil diametro 29 <br>Cantidad por bulto 115 <br></p>
                </div>
 
               <div class="productos__div productos__c1000 col-xs-12 col-sm-12 col-lg-4">
-                <p class="pd">Botella pet 1000cc <br></p>
+                <p class="productos__texto">Botella pet 1000cc <br></p>
                 <img src="../img/c1000.jpg" alt="imgc1000" class="rounded">
                 <p class="productos__descrip">Rosca oil diametro 29 <br>Cantidad por bulto 105 <br></p>
               </div>
 
                       <!-- botellas pet - fin -->
 
+                    <!-- botellas pead - inicio -->
+
+            <div class="conteiner__div contenedor__pead col-x2-12 col-sm-12 col-lg-12" id="PEAD"></div>
+
+            <div class="productos__div productos__bp1000 col-xs-12 col-sm-6 col-lg-6">
+                <p class="productos__texto">Botella pead 1lt <br></p>
+                <img src="../img/bp1000.jpg" alt="imgbp1000" class="rounded">
+                <p class="productos__descrip">Rosca diametro 28 <br>Cantidad por bulto 105 <br></p>
+             </div>
+
+              <div class="productos__div productos__bp2000 col-xs-12 col-sm-6 col-lg-4">
+                <p class="productos__texto">Botella pead 2lt <br></p>
+                <img src="../img/bp2000.jpg" alt="imgbp2000" class="rounded">
+                <p class="productos__descrip">Rosca diametro 28 <br>Cantidad por bulto 105 <br></p>
+             </div>
+                   <!-- botellas pead - fin -->
+
+                  
+
                       <!-- botellas pvc - inicio -->
 
               <div class="conteiner__div contenedor__pvc col-xs-12 col-sm-12 col-lg-12" id="PVC"></div>
 
              <div class="productos__div productos__bp5000 col-xs-12 col-sm-12 col-lg-12">
-                <p class="pd">Bidon pead x 5lt cristal<br></p>
+                <p class="productos__texto">Bidon pead x 5lt cristal<br></p>
                 <img src="../img/bp5000.jpg" alt="imgbp5000" class="rounded">
                 <p class="productos__descrip">Rosca diametro 42 <br>Cantidad por bulto 27 <br></p>
             </div>     

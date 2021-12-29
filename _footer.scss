@@ -1,0 +1,22 @@
+.footer{
+    padding: 0px 5px;
+    display: flex;
+    min-height: 12vh;
+    justify-content: space-evenly;  
+    align-items: center;
+    background-color: rgba(140, 140, 140, 0.357);
+}
+.footer__logo img{
+   display: inline-block;
+    width: 25px;
+    height: 25px;
+ 
+}
+.footer__logo{
+    order: 2;
+}
+.footer__texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: $color-primaty;
+}

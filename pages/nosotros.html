@@ -16,47 +16,49 @@
 
 <body>
 
-    <!-- header - inicio -->
+      <!-- header - inicio -->
+      <nav class="navbar navbar-expand-md navbar-dark" id="header">
+        <!-- logo europlast -->
+      <a class="navbar-brand header__logo" href="#">Europlast</a>
 
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark" id="header">
+     <!-- boton hamburguesa -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <!-- Brand -->
-            <a class="navbar-brand header__logo" href="#">Europlast</a>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar"> 
+          <!-- items lista menu -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <!-- item lista submenu- -->
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  Productos
+              </a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="productos.html#PET">PET</a>
+                  <a class="dropdown-item" href="productos.html#PEAD">PEAD</a>
+                  <a class="dropdown-item" href="productos.html#PVC">PVC</a>
+                  <a class="dropdown-item" href="productos.html#PP">PP</a>
+              </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>   
+        </ul>
+        <!-- boton redirecciona a contactos -->
+        <button type="submit" class="btn btn-success d-none d-md-block btn-sm"><a href="pages/contacto.html"></a>Contactanos</button>          
+      </div>  
+    </nav>
 
-            <!-- Links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                </li>
-
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Productos
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="productos.html#PET">PET</a>
-                        <a class="dropdown-item" href="productos.html#PEAD">PEAD</a>
-                        <a class="dropdown-item" href="productos.html#PVC">PVC</a>
-                        <a class="dropdown-item" href="productos.html#PP">PP</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-
-            </ul>
-            <button type="submit" class="btn btn-success float d-none d-md-block"><a href="contacto.html"></a>Contactanos!!</button>
-
-        </nav>
-    </header>
     <!-- header - fin -->
 
 <!-- main - inicio -->
@@ -79,8 +81,7 @@
                         invitación a desafiarse y a crecer, a incorporar nuevos procesos y aprendizajes.</p>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-lg-6  text-center">
-                    <img src=".
-                    ./img/imgHistoria.jpg" class="img-fluid rounded-circle" width="350px" alt="imgHistoria">
+                    <img src="../img/imgHistoria.jpg" class="img-fluid rounded-circle" width="400px" alt="euro plast historia">
                 </div>
                 <div class="conten__div conten__proposito">
                     <p>
