@@ -13,7 +13,7 @@ $color-primaty:rgb(37, 74, 194) ;
     box-sizing: border-box;
 }
 body{
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif; 
 }
 
@@ -54,7 +54,7 @@ font-weight: bold;
 .content__imgnav{
     margin: 10px 10px;
     height: 100px;
-    background-image: url(img/imgnav.jpg);
+    background-image: url(../img/imgnav.jpg);
     background-position: center;
     background-size:contain;
     justify-content: center;
