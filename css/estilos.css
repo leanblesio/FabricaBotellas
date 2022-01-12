@@ -30,6 +30,34 @@ main p span {
 }
 
 /* ***** PRODUCTOS ***** */
+.pet-icon {
+  background-image: url("../img/pet.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pead-icon {
+  background-image: url("../img/pead.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pvc-icon {
+  background-image: url("../img/pvc.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pp-icon {
+  background-image: url("../img/pp.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .conteiner__div {
   height: 200px;
 }
@@ -50,34 +78,6 @@ main p span {
   height: 50px;
 }
 
-.contenedor__pet {
-  background-image: url(../img/pet.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.contenedor__pead {
-  background-image: url(../img/pead.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.contenedor__pvc {
-  background-image: url(../img/pvc.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.contenedor__pp {
-  background-image: url(../img/pp.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .contenedor__texto {
   width: 75%;
   font-size: 25px;
@@ -95,7 +95,7 @@ main p span {
 
 .conten__historia {
   height: auto;
-  padding: 12px 5px;
+  padding: 5px 6px;
   font-size: 12px;
 }
 .conten__historia span {
@@ -127,7 +127,7 @@ main p span {
 /* **************************** PRODUCTOS*************************** */
 .productos__div {
   text-align: center;
-  border: 5px solid #fff;
+  border: 5px solid #ffff;
 }
 .productos__div img {
   width: 260px;
@@ -190,7 +190,7 @@ main p span {
 }
 
 body {
-  background-color: white;
+  background-color: #ffff;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -235,8 +235,9 @@ body {
 
 /* **************************** PRODUCTOS*************************** */
 .productos__div {
+  background-color: #ffff;
   text-align: center;
-  border: 5px solid #fff;
+  border: 5 solid #ffff;
 }
 .productos__div img {
   width: 260px;

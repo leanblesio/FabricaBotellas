@@ -1,21 +1,35 @@
+
+@mixin tx($fontZ, $pad) {
+    font-size: $fontZ;
+    padding: $pad;
+    
+ }
+ 
+
 main{
     img{
         padding: 25px;
     }
-    p{font-size: 16px;
-        padding: 25px;
+     p{
+        @include tx(16px, 25px);
         
         span{
-            font-size: 20px;
-             padding: 20px;
+             @include tx(20px, 20px);
             }
     }
 }
 
 /* ***** PRODUCTOS ***** */
-// tarea pendiente------ juntar conteiner__div con contenedor de productos (contenedor__pet, etc) ¿¿EXTEND??
 
-
+@each $envase in pet , pead , pvc , pp {
+    .#{$envase}-icon {
+        background-image: url("../img/#{$envase}.png");
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+}
 .conteiner__div{//tambien esta en index.. ver p/ heredar.
     height: 200px;
 }
@@ -32,30 +46,6 @@ main{
     text-align: center;
     text-transform: uppercase;
     height: 50px;
-}
-.contenedor__pet{
-    background-image: url(../img/pet.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.contenedor__pead{
-    background-image: url(../img/pead.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.contenedor__pvc{
-    background-image: url(../img/pvc.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.contenedor__pp{
-    background-image: url(../img/pp.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 .contenedor__texto{
     width: 75%;
@@ -76,7 +66,7 @@ main{
             .conten__historia{
                
                 height: auto;
-                padding: 12px 5px;
+                padding: 5px 6px;
                 font-size: 12px;
                 span{
                     padding: 5px 5px;
@@ -111,7 +101,7 @@ main{
 
             .productos__div{  
                 text-align: center;
-                border: 5px solid #fff;
+                border: 5px solid #ffff;
                 img{
                     width: 260px;   
                     height: 300px;

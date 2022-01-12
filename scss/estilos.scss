@@ -2,19 +2,36 @@
 @import "jumbotron";
 @import "main";
 @import "footer";
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&family=Roboto:wght@300;500&display=swap');
-
-$color-primaty:rgb(37, 74, 194) ;
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+//paleta de colores
+$color-base: #ffff ;
+$color-primaty:rgb(37, 74, 194) ;
+$color-black-transp: rgba(34, 34, 34, 0.322);
+$font: 'Montserrat', sans-serif; 
+
+//declaracion de mapas
+
+$vars: (
+  bg: $color-base,  
+  centro: center,
+  borde: 5 solid $color-base,
+  width: 260px,
+  height: 300px,
+
+);
+
+
+
 body{
-    background-color: rgb(255, 255, 255);
-    font-family: 'Montserrat', sans-serif; 
+    background-color: $color-base;
+    font-family: $font;
 }
 
 
@@ -65,17 +82,21 @@ font-weight: bold;
 
 /* **************************** PRODUCTOS*************************** */
 
+
+
+
 .productos__div{  
-    text-align: center;
-    border: 5px solid #fff;
+    background-color: map-get($vars , bg);  
+    text-align: map-get($vars , centro);  
+    border: map-get($vars, borde);
     img{
-        width: 260px;   
-        height: 300px;
+        width: map-get($vars , width);  
+        height: map-get($vars , height);
     }
 }
 .productos__descrip{
     padding: 7px 0px;
-    text-align: center;
+    text-align: map-get($vars, centro );
     font-size: 12px;
     font-weight: bolder;
    
