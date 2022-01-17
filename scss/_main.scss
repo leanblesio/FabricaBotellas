@@ -1,3 +1,8 @@
+//paleta de colores
+$color-base: #ffff ;
+$color-primaty:rgb(37, 74, 194) ;
+$color-primity-transp: rgba(37, 74, 194, 0.37);
+$color-black-transp: rgba(34, 34, 34, 0.322);
 
 @mixin tx($fontZ, $pad) {
     font-size: $fontZ;
@@ -30,16 +35,17 @@ main{
     }
     
 }
-.conteiner__div{//tambien esta en index.. ver p/ heredar.
+.conteiner__div{
     height: 200px;
 }
 .contenedor__imagen{
     align-items: center;
     justify-content: center;
     background-image: url(../img/bot_back.jpeg);
-    background-size: contain;    
+    background-size:contain;    
 }
 .contenedor__subtitulo{
+    padding: 10px;
     color: $color-primaty;
     font-weight: bold;
     font-size: 22px;
@@ -124,12 +130,51 @@ main{
 
 /* **************************** CONTACTO *************************** */
             .textoep{
-                font-size: 13;
-                padding: 15px;
+                font-size: 14px;
+                padding: 15px 15px 15px 15px;
+                margin-left: 20px;
+               
             }
             .mapa
             {
+                text-align: center;
+                align-content: center;
                 padding: 30px 30px;
             }
-            
-            
+            .titulos{
+                background-color: $color-primity-transp;
+                text-shadow: 2px 2px $color-primity-transp;
+                text-align: center;
+                
+            }
+            .datosep{
+                text-shadow: 2px 2px $color-primity-transp;
+                text-align: center;
+            }
+
+  // SERVICIOS
+
+.contenedor__servicios{    
+    justify-content: center;    
+    width: 75%;
+    background: rgb(34,195,174);
+background: linear-gradient(0deg, rgba(34,195,174,1) 0%, rgba(45,182,253,1) 100%);
+     //poner imagen de pavan zanetti;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.747);
+    padding: 20px;
+    margin-bottom: 25px;
+   }
+.servicios{
+    text-align: center;
+    justify-content: center;
+    background-color: $color-black-transp;
+    width: 300px;
+    height: 300px;
+    color: black;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 20px;
+    text-shadow: #CCC 1px 0 10px;
+  
+}

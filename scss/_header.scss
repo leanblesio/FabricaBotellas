@@ -1,14 +1,24 @@
+//paleta de colores
+$color-base: #ffff ;
 $color-primaty:rgb(37, 74, 194) ;
+$color-black-transp: rgba(34, 34, 34, 0.322);
+
 
 #header  { 
-    padding: 7px;
-     background-color:$color-primaty;
+    width: 100%;
+    font-size: 20px;    
+     background-color:$color-primaty;     
     background-image: url(../img/fondo\ backg.png);
-  
 }
+
+
 .header__logo{
     font-family: 'Roboto', sans-serif;
-    padding: 0px 25px;
-    font-size: 30px;
-    color:rgb(255, 255, 255);
+    padding: 0px 40px;
+    font-size: 40px;
+    color:$color-base;
+}
+#menutext{
+    font-size: 20px;
+    
 }

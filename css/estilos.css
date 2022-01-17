@@ -1,20 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&family=Roboto:wght@300;500&display=swap");
 #header {
-  padding: 7px;
+  width: 100%;
+  font-size: 20px;
   background-color: #254ac2;
   background-image: url(../img/fondo\ backg.png);
 }
 
 .header__logo {
   font-family: "Roboto", sans-serif;
-  padding: 0px 25px;
-  font-size: 30px;
-  color: white;
+  padding: 0px 40px;
+  font-size: 40px;
+  color: #ffff;
+}
+
+#menutext {
+  font-size: 20px;
 }
 
 .jumbotron {
-  width: 100%;
-  height: 200px;
+  width: 100vw;
+  height: 450px;
 }
 
 main img {
@@ -70,6 +75,7 @@ main p span {
 }
 
 .contenedor__subtitulo {
+  padding: 10px;
   color: #254ac2;
   font-weight: bold;
   font-size: 22px;
@@ -150,18 +156,56 @@ main p span {
 
 /* **************************** CONTACTO *************************** */
 .textoep {
-  font-size: 13;
-  padding: 15px;
+  font-size: 14px;
+  padding: 15px 15px 15px 15px;
+  margin-left: 20px;
 }
 
 .mapa {
+  text-align: center;
+  align-content: center;
   padding: 30px 30px;
 }
 
+.titulos {
+  background-color: rgba(37, 74, 194, 0.37);
+  text-shadow: 2px 2px rgba(37, 74, 194, 0.37);
+  text-align: center;
+}
+
+.datosep {
+  text-shadow: 2px 2px rgba(37, 74, 194, 0.37);
+  text-align: center;
+}
+
+.contenedor__servicios {
+  justify-content: center;
+  width: 75%;
+  background: #22c3ae;
+  background: linear-gradient(0deg, #22c3ae 0%, #2db6fd 100%);
+  border-radius: 20px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.747);
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.servicios {
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(34, 34, 34, 0.322);
+  width: 300px;
+  height: 300px;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 20px;
+  text-shadow: #CCC 1px 0 10px;
+}
+
 .footer {
-  padding: 0px 5px;
   display: flex;
-  min-height: 12vh;
+  min-height: 15vh;
+  width: 100%;
   justify-content: space-evenly;
   align-items: center;
   background-color: rgba(140, 140, 140, 0.357);
